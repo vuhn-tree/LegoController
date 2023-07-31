@@ -92,8 +92,6 @@ void loop() {
   } 
 
   if(M5.BtnC.read()) {
-    // M5.Lcd.println("Sleeping...");
-    // M5.setWakeupButton();  
     // M5.Lcd.sleep();
     M5.Axp.SetLcdVoltage(3300);
     // M5.Lcd.setBrightness(10);
